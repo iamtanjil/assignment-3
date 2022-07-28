@@ -13,3 +13,20 @@
     color: #f8f9fa;
     font-size: 30px;
 }
+@media screen and (max-width: 576px) {
+    .rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reg-row{
+        flex-direction: column;
+    }
+    #company{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:990px){
+    #company{
+        visibility: hidden;
+    }
+}
